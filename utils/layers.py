@@ -1,7 +1,7 @@
 # coding: utf-8
 import numpy as np
 from utils.functions import softmax, cross_entropy_error, sigmoid
-from utils.layers import *
+from utils.im2col import *
 
 
 class Relu:
