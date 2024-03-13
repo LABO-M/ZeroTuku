@@ -7,11 +7,11 @@ def identity_function(x):
 
 
 def step_function(x):
-    return np.array(x > 0, dtype=int)
+    return np.array(x>0,dtype=int)
 
 
 def sigmoid(x):
-    return 1 / (1 + np.exp(-x))    
+    return 1 / (1 + np.exp(-x))
 
 
 def sigmoid_grad(x):
